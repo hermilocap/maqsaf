@@ -6,7 +6,16 @@
 
     <!-- SEO básico -->
     <title>maqsaf — Refacciones de Maquinaria Pesada San Felipe</title>
-    <base href="/maqsaf/"/>
+    <base href="/maqsaf/" />
+    <script>
+        (function () {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect !== location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
     <meta name="description"
           content="Refacciones para maquinaria pesada en Ometepec, Guerrero. Caterpillar, Komatsu, Case, John Deere y más. Cotiza por WhatsApp sin compromiso." />
     <meta name="keywords"
@@ -14,10 +23,10 @@
     <meta name="author" content="Refacciones San Felipe" />
 
     <!-- Open Graph -->
-    <meta property="og:title"       content="Refacciones San Felipe — Maquinaria Pesada Ometepec" />
+    <meta property="og:title" content="Refacciones San Felipe — Maquinaria Pesada Ometepec" />
     <meta property="og:description" content="Cotiza refacciones para maquinaria pesada directo por WhatsApp. Distribuidores locales en Ometepec, Guerrero." />
-    <meta property="og:type"        content="website" />
-    <meta property="og:locale"      content="es_MX" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
