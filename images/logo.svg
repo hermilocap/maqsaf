@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fondo cuadrado redondeado -->
+  <rect width="200" height="200" rx="28" fill="#F5A623"/>
+
+  <!-- Engranaje decorativo -->
+  <circle cx="100" cy="88" r="40" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-dasharray="8 5"/>
+  <circle cx="100" cy="88" r="26" fill="#1A1A1A"/>
+  <circle cx="100" cy="88" r="11" fill="#F5A623"/>
+
+  <!-- Dientes del engranaje -->
+  <rect x="92" y="42" width="16" height="20" rx="4" fill="#1A1A1A"/>
+  <rect x="92" y="114" width="16" height="20" rx="4" fill="#1A1A1A"/>
+  <rect x="54" y="80" width="20" height="16" rx="4" fill="#1A1A1A"/>
+  <rect x="126" y="80" width="20" height="16" rx="4" fill="#1A1A1A"/>
+  <rect x="63" y="53" width="16" height="20" rx="4" fill="#1A1A1A" transform="rotate(45 71 63)"/>
+  <rect x="120" y="103" width="16" height="20" rx="4" fill="#1A1A1A" transform="rotate(45 128 113)"/>
+  <rect x="63" y="103" width="16" height="20" rx="4" fill="#1A1A1A" transform="rotate(-45 71 113)"/>
+  <rect x="120" y="53" width="16" height="20" rx="4" fill="#1A1A1A" transform="rotate(-45 128 63)"/>
+
+  <!-- Texto SF -->
+  <text x="100" y="97" text-anchor="middle"
+        font-family="Arial Black, sans-serif"
+        font-weight="900" font-size="22"
+        fill="#F5A623" letter-spacing="2">SF</text>
+
+  <!-- Texto inferior -->
+  <text x="100" y="155" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-weight="700" font-size="16"
+        fill="#1A1A1A" letter-spacing="1">SAN FELIPE</text>
+
+  <text x="100" y="174" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-weight="400" font-size="10"
+        fill="#1A1A1A" letter-spacing="2.5">REFACCIONES</text>
+</svg>
