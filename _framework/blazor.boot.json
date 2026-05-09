@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "maqsaf.Client",
   "resources": {
-    "hash": "sha256-ElIssKOsO7xdwfbHYu4F/vzk56JpeHxgIL6pJE2Giv8=",
+    "hash": "sha256-S55jpy7E7YtVwJ8XNQIqknr06dn+zoabu/nOsOCoPyk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-nElGk+CZFyq0PbPm4JU8avD6lER7x9Z1C54BK7qY12Q="
     },
@@ -57,7 +57,7 @@
       "System.Text.RegularExpressions.wasm": "sha256-RH+1I9pL6sbT/sJ536fyV8GYZ70k3wI/XNaAf+KtRQg=",
       "System.wasm": "sha256-U1ugCDIgbEW6lR5UkMCUZh1lhLDB62fhi0ZthK9FNyg=",
       "System.Private.CoreLib.wasm": "sha256-aqtGoO/SGLz9twExOlYJ8xabryk9GnHS9HGTCuDxHsY=",
-      "maqsaf.Client.wasm": "sha256-V/UNYTwII/ApmSrc48/SZcMPcQznGsDud/ILFTt563w="
+      "maqsaf.Client.wasm": "sha256-k2pdJ5bhshI3id2a14bln9Ei5NR/FG2iURY6ugo42Vk="
     }
   },
   "cacheBootResources": true,
