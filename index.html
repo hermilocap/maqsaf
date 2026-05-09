@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- SEO básico -->
     <title>maqsaf — Refacciones de Maquinaria Pesada San Felipe</title>
     <base href="/maqsaf/" />
     <script>
@@ -16,95 +14,52 @@
             }
         })();
     </script>
-    <meta name="description"
-          content="Refacciones para maquinaria pesada en Ometepec, Guerrero. Caterpillar, Komatsu, Case, John Deere y más. Cotiza por WhatsApp sin compromiso." />
-    <meta name="keywords"
-          content="refacciones maquinaria pesada, Ometepec, Guerrero, Caterpillar, Komatsu, Case, excavadora, bulldozer" />
+    <meta name="description" content="Refacciones para maquinaria pesada en Ometepec, Guerrero. Caterpillar, Komatsu, Case, John Deere y más. Cotiza por WhatsApp sin compromiso." />
+    <meta name="keywords" content="refacciones maquinaria pesada, Ometepec, Guerrero, Caterpillar, Komatsu, Case, excavadora, bulldozer" />
     <meta name="author" content="Refacciones San Felipe" />
-
-    <!-- Open Graph -->
     <meta property="og:title" content="Refacciones San Felipe — Maquinaria Pesada Ometepec" />
     <meta property="og:description" content="Cotiza refacciones para maquinaria pesada directo por WhatsApp. Distribuidores locales en Ometepec, Guerrero." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_MX" />
-
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
     <link rel="apple-touch-icon" href="images/logo.svg" />
-
-    <!-- Estilos -->
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="maqsaf.Client.styles.css" />
-
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
-          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
     <div id="app">
-        <!-- Loading screen mientras carga Blazor WASM -->
-        <div style="
-            position:fixed;inset:0;
-            background:#1A1A1A;
-            display:flex;flex-direction:column;
-            align-items:center;justify-content:center;
-            gap:1.5rem;font-family:sans-serif;">
-            <div style="
-                width:64px;height:64px;
-                background:#F5A623;border-radius:12px;
-                display:flex;align-items:center;justify-content:center;">
+        <div style="position:fixed;inset:0;background:#1A1A1A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;font-family:sans-serif;">
+            <div style="width:64px;height:64px;background:#F5A623;border-radius:12px;display:flex;align-items:center;justify-content:center;">
                 <span style="font-family:Arial Black,sans-serif;font-weight:900;font-size:26px;color:#1A1A1A">SF</span>
             </div>
             <div style="text-align:center">
-                <p style="color:#F5A623;font-size:14px;letter-spacing:3px;text-transform:uppercase;margin-bottom:4px">
-                    Refacciones San Felipe
-                </p>
+                <p style="color:#F5A623;font-size:14px;letter-spacing:3px;text-transform:uppercase;margin-bottom:4px">Refacciones San Felipe</p>
                 <p style="color:rgba(255,255,255,.35);font-size:12px">Cargando...</p>
             </div>
-            <div style="
-                width:140px;height:3px;
-                background:rgba(255,255,255,.1);
-                border-radius:2px;overflow:hidden;">
-                <div style="
-                    width:40%;height:100%;
-                    background:#F5A623;border-radius:2px;
-                    animation:load 1.2s ease-in-out infinite alternate;">
-                </div>
+            <div style="width:140px;height:3px;background:rgba(255,255,255,.1);border-radius:2px;overflow:hidden;">
+                <div style="width:40%;height:100%;background:#F5A623;border-radius:2px;animation:load 1.2s ease-in-out infinite alternate;"></div>
             </div>
         </div>
     </div>
-
-    <div id="blazor-error-ui"
-         style="display:none;background:#7b1c1c;color:white;padding:1rem;
-                position:fixed;bottom:0;left:0;right:0;z-index:9999;font-family:sans-serif">
+    <div id="blazor-error-ui" style="display:none;background:#7b1c1c;color:white;padding:1rem;position:fixed;bottom:0;left:0;right:0;z-index:9999;font-family:sans-serif">
         Se produjo un error no manejado.
         <a href="" style="color:#F5A623">Recargar</a>
-        <a onclick="document.getElementById('blazor-error-ui').style.display='none'"
-           style="float:right;color:#F5A623;cursor:pointer">✕</a>
+        <a onclick="document.getElementById('blazor-error-ui').style.display='none'" style="float:right;color:#F5A623;cursor:pointer">✕</a>
     </div>
-
     <style>
         @keyframes load {
-            from { transform: translateX(-100%); }
-            to   { transform: translateX(250%); }
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(250%);
+            }
         }
     </style>
-
-    <!-- SPA Redirect: reconstruye la ruta para GitHub Pages -->
-    <script>
-        (function(l) {
-            if (l.search[1] === '/' ) {
-                var decoded = l.search.slice(1).split('&').map(function(s) {
-                    return s.replace(/~and~/g, '&')
-                }).join('?');
-                window.history.replaceState(null, null,
-                    l.pathname.slice(0, -1) + decoded + l.hash
-                );
-            }
-        }(window.location))
-    </script>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
 </html>
