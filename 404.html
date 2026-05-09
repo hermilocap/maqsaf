@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>maqsaf — Redirigiendo</title>
+    <base href="/maqsaf/" />
     <!--
         IMPORTANTE para GitHub Pages + Blazor WASM SPA routing.
         Este script redirige todas las rutas al index.html
         para que el router de Blazor las maneje correctamente.
     -->
-    <script>
-        var segmentCount = 1; // 1 = repo en subfolder, 0 = dominio raíz custom
+    <script>var segmentCount = 1; // 1 = repo en subfolder, 0 = dominio raíz custom
         var l = window.location;
         l.replace(
             l.protocol + '//' + l.hostname +
@@ -18,8 +18,7 @@
             '/?p=/' + l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
             (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
             l.hash
-        );
-    </script>
+        );</script>
 </head>
 <body></body>
 </html>
