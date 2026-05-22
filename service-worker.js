@@ -1,4 +1,4 @@
-/* Manifest version: vJh4OuDZ */
+/* Manifest version: rGRPfZrH */
 // Service worker publicado para maqsaf
 self.importScripts('./service-worker-assets.js');
 self.addEventListener('install',  event => event.waitUntil(onInstall(event)));

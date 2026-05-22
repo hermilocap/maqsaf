@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "vJh4OuDZ",
+  "version": "rGRPfZrH",
   "assets": [
     {
       "hash": "sha256-pPkoch+pv96RAahEkZBeZ0n3oSAlmlvqHmohecmf7GQ=",
@@ -162,7 +162,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-USBXcf4+po891gxr/3KJX8+y9XKUJUkwEvxIDJpSU9w=",
+      "hash": "sha256-fzNrmJGYxajokRLBZxCvr2l6hGDQkQZcSxQ147jTl6g=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -198,7 +198,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-JMw+RhxNeFVI1LSe2jJjMj6uW3RHR+rw4iKHrN5OZyc=",
+      "hash": "sha256-qP35X02L42hdhjDpJnJuunG19jJ8iKGPOPWiH/0y4zY=",
       "url": "_framework/maqsaf.Client.wasm"
     },
     {
@@ -210,15 +210,19 @@ self.assetsManifest = {
       "url": "appsettings.json"
     },
     {
-      "hash": "sha256-Le+tUy5Rk0ZOcIJ2GRHYMMfm9F0XZnhVXg3kFM13mOg=",
+      "hash": "sha256-OY7fT0+2rIcyZrArgYkf8rCBNwS+IgknmeSDenlXC70=",
       "url": "css/app.css"
+    },
+    {
+      "hash": "sha256-NIrRbPLidBcQF1oqEFi4NI/f3lv/mJ5ECYiysy5/vuU=",
+      "url": "images/logo.jpeg"
     },
     {
       "hash": "sha256-+RPYEl3iZOUuRNUqhC5axOKys0sw8sXS0zum5+8ZcKk=",
       "url": "images/logo.svg"
     },
     {
-      "hash": "sha256-/3PjVhjF6ed+45hhKJos0hEdyKXMC89pOG9sTEke/EM=",
+      "hash": "sha256-cHpzQlgJbrG8MLsWMmChBrdWthRn3QjTtWSkLINuFgE=",
       "url": "index.html"
     }
   ]
